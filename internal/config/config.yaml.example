@@ -1,0 +1,15 @@
+env: 'local' # 'local' | 'prod'
+http:
+  port: 8080
+  host: localhost
+notion:
+  oauth:
+    client_id: '123'
+    client_secret: '123'
+    redirect_uri: 'https://example.com/notion/oauth/callback'
+storage:
+  mongodb:
+    path: 'mongodb://127.0.0.1:27017/'
+telegram:
+  webhook_url: 'https://example.com/telegram/webhook/callback'
+  bot_token: '123'
